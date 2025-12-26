@@ -6,13 +6,13 @@
 # all of the things below don't do anything
 # there's nothing else to say
 # i just hope that lollipop apps stop screamin
-# and i'm going 2 bed.
+# and i'm going to compile again.
 
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := google-common
-LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES :=
 
