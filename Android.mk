@@ -6,7 +6,7 @@
 # all of the things below don't do anything
 # there's nothing else to say
 # i just hope that lollipop apps stop screamin
-# and i'm going to compile again.
+# and i'm going 2 bed.
 
 LOCAL_PATH := $(call my-dir)
 
@@ -14,6 +14,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := google-common
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES :=
+LOCAL_SRC_FILES := GoogleCommon.java
 
-include $(BUILD_PREBUILT)
+include $(BUILD_STATIC_JAVA_LIBRARY)
