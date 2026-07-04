@@ -1,13 +1,3 @@
-# google-common
-# google-common
-# whatever this repo does
-# lollipop apps want it
-# so here you go...
-# all of the things below don't do anything
-# there's nothing else to say
-# i just hope that lollipop apps stop screamin
-# and i'm going 2 bed.
-
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
